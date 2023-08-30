@@ -9,6 +9,13 @@
 
 
 /* nav styles */
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navsection {
     align-items: center;
 }
@@ -38,7 +45,15 @@
 
 
 
-.navfollow {
-    border-radius: 8px;
+ 
+.navbar{
+    display: flex;
     background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    align-items: center;
+}
+
+.navbar li {
+    display: flex;
+    gap: 5px;
 }
