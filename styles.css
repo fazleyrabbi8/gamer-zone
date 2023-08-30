@@ -1,0 +1,44 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    list-style: none;
+}
+
+
+/* nav styles */
+.navsection {
+    align-items: center;
+}
+
+.navicon {
+    width: 86.041px;
+    height: 40px;
+
+}
+
+.navsection {
+    display: flex;
+    gap: 20px;
+}
+
+.navtitle {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+
+.pinktext {
+
+    color: #FF42A5;
+}
+
+
+
+.navfollow {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
