@@ -116,13 +116,24 @@
 .banner {
     margin: 30px 20px;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 0 0px;
 }
 
 .goat {
-    background-image: url(images/Group\ 14.png); 
+   
+    background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    max-height: 900px;
+    margin-right: 20px;
+    padding: 10px 10px;
+}
+
+.goattext{
+    margin: 0 0;
 }
 
 .play {
@@ -131,6 +142,7 @@
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 4px 0;
 }
 
 
@@ -141,6 +153,7 @@
     font-size: 20px;
     font-weight: 500;
     text-transform: lowercase;
+    margin: 10px 0;
 }
 
 
@@ -169,8 +182,42 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+.goatimages img {
+
+    max-width: 500px;
+    max-height: 500px;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
 
+    .nav , .navbar , .navbar ul , .banner {
+        flex-direction: column;
+        justify-content: center;
+    }
 
-    
+    .goat{
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+
+
+
+
+
+
+
 }
