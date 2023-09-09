@@ -5,6 +5,7 @@
 
 * {
     list-style: none;
+    margin: 0 0;
 }
 
 /* hover styles */
@@ -195,15 +196,9 @@ nav li a {
 }
 
 
-.goatimages {
-
-    width: 100%;
-}
 
 .goatimages img {
-
-    width: 100%;
-    flex-shrink: 0;
+    width: 600px;
 }
 
 
@@ -293,7 +288,7 @@ nav li a {
 }
 
 .instantimg-container img {
-    width: 500px;
+   width: 500px;
 
 }
 
@@ -340,15 +335,17 @@ nav li a {
 
 
 footer {
-
+    height: 300px;
     background: #0B0223;
     margin: 50px 0 0 0;
+    
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
 
 }
 
@@ -358,6 +355,7 @@ footer {
     font-size: 45px;
     font-weight: 700;
     color: #FFF;
+    
 
 }
 
@@ -365,6 +363,7 @@ footer {
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
+    margin: 20px;
 }
 
 .footerbar ul {
@@ -372,6 +371,10 @@ footer {
     justify-content: center;
     gap: 15px;
     text-align: center;
+}
+.footericons{
+    margin: 20px;
+
 }
 
 .footericons ul {
@@ -393,8 +396,11 @@ footer {
 }
 
 footer p {
+    display: block;
+    justify-content: baseline;
     color: rgba(255, 255, 255, 0.60);
     text-align: center;
+   
     font-weight: 500;
 
 }
@@ -435,7 +441,8 @@ footer p {
     .nav,
     .navbar,
     .navbar ul,
-    .banner {
+    .banner,
+    .playinstantly {
         flex-direction: column;
         justify-content: center;
     }
@@ -446,9 +453,35 @@ footer p {
     }
 
 
+    .goatimages img {
+
+        max-width: 100%;
+    }
+
+    /* card container styles */
+
+    .cardscontainer {
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+
+
+    .instantimg-container img,
+    .talkingcat img {
+        max-width: 100%;
+
+    }
+
+    .talkingcat img {
+        max-width: 100%;
+
+    }
+    .gamecategory {
+        grid-template-columns: repeat(3, 1fr);
 
 
 
 
 
-}
+}}
