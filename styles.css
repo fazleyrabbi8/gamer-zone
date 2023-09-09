@@ -235,7 +235,7 @@ nav li a {
 
 .card {
     width: 70%;
-    display:inline;
+    display: inline;
     justify-content: center;
     align-items: center;
     position: center;
@@ -244,11 +244,11 @@ nav li a {
 
 
 .card img {
-   
+
     width: 90%;
     margin: auto;
     display: block;
-   
+
 }
 
 .imgdescription {
@@ -263,8 +263,9 @@ nav li a {
 .playinstantly {
 
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
+    gap: 100px;
+    padding: 50px;
 }
 
 
@@ -292,17 +293,17 @@ nav li a {
 }
 
 .instantimg-container img {
-    height: 90%;
-    margin-left: 90px;
+    width: 500px;
+
 }
 
 
-.talkingcat {
-    border: none;
-    margin: 0 0;
+.talkingcat img {
+    width: 250px;
     text-align: center;
     position: relative;
-    bottom: 250px;
+    bottom: 200px;
+    right: 100px;
 
 }
 
